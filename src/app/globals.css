@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
 @theme {
+  /* Use Next.js optimized font variables */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+
+  /* Color theme variables */
   --color-background: #ffffff;
   --color-foreground: #000000;
-  --font-sans: "Geist Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", ui-monospace, monospace;
 }
 
 /* Dark mode theme variables */
