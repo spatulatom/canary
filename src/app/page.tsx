@@ -24,7 +24,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                 ⚡
               </div>
-              <h3 className="text-xl font-semibold ml-3">Turbopack Builds</h3>
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
+                Turbopack Builds
+              </h3>
             </div>
             <p className="text-gray-600 mb-4">
               Production builds powered by Turbopack - up to 5x faster on large
@@ -44,7 +46,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
                 🔒
               </div>
-              <h3 className="text-xl font-semibold ml-3">Node.js Middleware</h3>
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
+                Node.js Middleware
+              </h3>
             </div>
             <p className="text-gray-600 mb-4">
               Stable Node.js runtime support with full API access for complex
@@ -64,7 +68,7 @@ export default function Home() {
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                 📝
               </div>
-              <h3 className="text-xl font-semibold ml-3">
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
                 TypeScript Features
               </h3>
             </div>
@@ -86,7 +90,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
                 🔧
               </div>
-              <h3 className="text-xl font-semibold ml-3">Modern Linting</h3>
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
+                Modern Linting
+              </h3>
             </div>
             <p className="text-gray-600 mb-4">
               Direct ESLint integration replacing `next lint` for better
@@ -106,7 +112,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center">
                 🌐
               </div>
-              <h3 className="text-xl font-semibold ml-3">API Integration</h3>
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
+                API Integration
+              </h3>
             </div>
             <p className="text-gray-600 mb-4">
               Modern API routes with full type safety and validation.
@@ -125,7 +133,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
                 📚
               </div>
-              <h3 className="text-xl font-semibold ml-3">Migration Guide</h3>
+              <h3 className="text-xl font-semibold ml-3 text-gray-800">
+                Migration Guide
+              </h3>
             </div>
             <p className="text-gray-600 mb-4">
               Learn about deprecations and prepare for Next.js 16.
@@ -141,7 +151,7 @@ export default function Home() {
 
         {/* Quick Stats */}
         <div className="bg-white rounded-xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
             Performance Highlights
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
