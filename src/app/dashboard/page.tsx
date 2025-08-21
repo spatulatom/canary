@@ -9,47 +9,47 @@ export default async function DashboardPage() {
   const timestamp = headersList.get("X-Timestamp");
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900 dark:to-green-800 p-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
             🔒 Dashboard - Node.js Middleware
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600 dark:text-gray-300">
             Protected route powered by stable Node.js middleware runtime
           </p>
         </div>
 
         <div className="grid gap-8">
           {/* Middleware Info */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">Middleware Headers</h2>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Middleware Headers</h2>
             <div className="space-y-3">
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-medium">Runtime:</span>
-                <span className="text-green-600 font-mono">
+              <div className="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <span className="font-medium text-gray-900 dark:text-white">Runtime:</span>
+                <span className="text-green-600 dark:text-green-400 font-mono">
                   {middlewareRuntime || "Not detected"}
                 </span>
               </div>
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-medium">Secure Hash:</span>
-                <span className="text-blue-600 font-mono">
+              <div className="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <span className="font-medium text-gray-900 dark:text-white">Secure Hash:</span>
+                <span className="text-blue-600 dark:text-blue-400 font-mono">
                   {secureHash || "Not generated"}
                 </span>
               </div>
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-medium">Config Exists:</span>
+              <div className="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <span className="font-medium text-gray-900 dark:text-white">Config Exists:</span>
                 <span
                   className={`font-mono ${
-                    configExists === "true" ? "text-green-600" : "text-red-600"
+                    configExists === "true" ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"
                   }`}
                 >
                   {configExists || "Unknown"}
                 </span>
               </div>
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-medium">Timestamp:</span>
-                <span className="text-purple-600 font-mono">
+              <div className="flex justify-between items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <span className="font-medium text-gray-900 dark:text-white">Timestamp:</span>
+                <span className="text-purple-600 dark:text-purple-400 font-mono">
                   {timestamp
                     ? new Date(parseInt(timestamp)).toLocaleString()
                     : "Not available"}
@@ -59,8 +59,8 @@ export default async function DashboardPage() {
           </div>
 
           {/* Node.js Features */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
               Node.js Runtime Features
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
@@ -69,8 +69,8 @@ export default async function DashboardPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium">Crypto API</h3>
-                  <p className="text-sm text-gray-600">
+                  <h3 className="font-medium text-gray-900 dark:text-white">Crypto API</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
                     Full Node.js crypto module access
                   </p>
                 </div>
@@ -80,8 +80,8 @@ export default async function DashboardPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium">File System</h3>
-                  <p className="text-sm text-gray-600">
+                  <h3 className="font-medium text-gray-900 dark:text-white">File System</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
                     Read/write files and directories
                   </p>
                 </div>
@@ -91,8 +91,8 @@ export default async function DashboardPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium">NPM Packages</h3>
-                  <p className="text-sm text-gray-600">
+                  <h3 className="font-medium text-gray-900 dark:text-white">NPM Packages</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
                     Use any Node.js library
                   </p>
                 </div>
@@ -102,8 +102,8 @@ export default async function DashboardPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium">Database Access</h3>
-                  <p className="text-sm text-gray-600">
+                  <h3 className="font-medium text-gray-900 dark:text-white">Database Access</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
                     Connect to databases directly
                   </p>
                 </div>
@@ -112,11 +112,11 @@ export default async function DashboardPage() {
           </div>
 
           {/* Code Example */}
-          <div className="bg-white rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
               Middleware Configuration
             </h2>
-            <div className="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto">
+            <div className="bg-gray-900 dark:bg-gray-950 text-gray-100 p-4 rounded-lg overflow-x-auto">
               <pre className="text-sm">
                 {`export const config = {
   runtime: 'nodejs', // Now stable in 15.5!
