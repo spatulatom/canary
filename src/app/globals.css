@@ -7,6 +7,7 @@
   --font-mono: "Geist Mono", ui-monospace, monospace;
 }
 
+/* Dark mode theme variables */
 @media (prefers-color-scheme: dark) {
   @theme {
     --color-background: #0a0a0a;
