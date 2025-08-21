@@ -54,7 +54,9 @@ export default function LintingPage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-700 rounded-lg p-4">
-                <h3 className="font-medium text-green-800 dark:text-green-300 mb-2">✅ Benefits</h3>
+                <h3 className="font-medium text-green-800 dark:text-green-300 mb-2">
+                  ✅ Benefits
+                </h3>
                 <ul className="text-sm text-green-700 dark:text-green-400 space-y-1">
                   <li>• Direct control over linting</li>
                   <li>• Better ecosystem compatibility</li>
@@ -63,7 +65,9 @@ export default function LintingPage() {
                 </ul>
               </div>
               <div className="bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-700 rounded-lg p-4">
-                <h3 className="font-medium text-blue-800 dark:text-blue-300 mb-2">🔄 Migration</h3>
+                <h3 className="font-medium text-blue-800 dark:text-blue-300 mb-2">
+                  🔄 Migration
+                </h3>
                 <p className="text-sm text-blue-700 dark:text-blue-400 mb-2">
                   Use the automated codemod:
                 </p>
@@ -119,7 +123,9 @@ export default eslintConfig;`}
 
           {/* Alternative: Biome */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Alternative: Biome</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+              Alternative: Biome
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               New projects can choose Biome as a fast alternative to ESLint.
             </p>
@@ -143,7 +149,9 @@ export default eslintConfig;`}
 
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-purple-50 dark:bg-purple-900/30 border border-purple-200 dark:border-purple-700 rounded-lg p-4">
-                <h3 className="font-medium text-purple-800 dark:text-purple-300 mb-2">⚡ Speed</h3>
+                <h3 className="font-medium text-purple-800 dark:text-purple-300 mb-2">
+                  ⚡ Speed
+                </h3>
                 <p className="text-sm text-purple-700 dark:text-purple-400">
                   Significantly faster than ESLint
                 </p>
