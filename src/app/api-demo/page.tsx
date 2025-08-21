@@ -14,7 +14,9 @@ export default function APIDemoPage() {
         <div className="grid gap-8">
           {/* API Testing Interface */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Live API Testing</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+              Live API Testing
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
               Test the API routes built with Next.js 15.5 features.
             </p>
@@ -22,7 +24,9 @@ export default function APIDemoPage() {
             <div className="space-y-4">
               <div className="border border-gray-200 dark:border-gray-600 rounded-lg p-4">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="font-medium text-gray-900 dark:text-white">GET /api/time</span>
+                  <span className="font-medium text-gray-900 dark:text-white">
+                    GET /api/time
+                  </span>
                   <span className="text-xs bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-2 py-1 rounded">
                     GET
                   </span>
@@ -37,7 +41,9 @@ export default function APIDemoPage() {
 
               <div className="border border-gray-200 dark:border-gray-600 rounded-lg p-4">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="font-medium text-gray-900 dark:text-white">GET /api/protected/data</span>
+                  <span className="font-medium text-gray-900 dark:text-white">
+                    GET /api/protected/data
+                  </span>
                   <span className="text-xs bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-2 py-1 rounded">
                     Protected
                   </span>
@@ -54,7 +60,9 @@ export default function APIDemoPage() {
 
           {/* API Response Display */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">API Response</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+              API Response
+            </h2>
             <div className="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-4 min-h-32">
               <p className="text-gray-500 dark:text-gray-400 text-center py-8">
                 Click a button above to test the API and see the response here
@@ -64,14 +72,18 @@ export default function APIDemoPage() {
 
           {/* Features */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">API Features</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+              API Features
+            </h2>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="flex items-start space-x-3">
                 <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white text-sm">
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">Type Safety</h3>
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Type Safety
+                  </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Full TypeScript support for requests and responses
                   </p>
@@ -82,7 +94,9 @@ export default function APIDemoPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">Middleware Integration</h3>
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Middleware Integration
+                  </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Node.js middleware adds custom headers
                   </p>
@@ -93,7 +107,9 @@ export default function APIDemoPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">Route Validation</h3>
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Route Validation
+                  </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Automatic export validation at build time
                   </p>
@@ -104,7 +120,9 @@ export default function APIDemoPage() {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">Error Handling</h3>
+                  <h3 className="font-medium text-gray-900 dark:text-white">
+                    Error Handling
+                  </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Comprehensive error responses
                   </p>
@@ -115,7 +133,9 @@ export default function APIDemoPage() {
 
           {/* Code Examples */}
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">API Route Example</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+              API Route Example
+            </h2>
             <div className="bg-gray-900 dark:bg-gray-950 text-gray-100 p-4 rounded-lg overflow-x-auto">
               <pre className="text-sm">
                 {`// app/api/time/route.ts
