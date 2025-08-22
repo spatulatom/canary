@@ -10,7 +10,7 @@ export default function Home() {
             🚀 Next.js 15.5 Feature Showcase
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Experience the latest and greatest features from Next.js 15.5
+            Experience the latest features from Next.js 15.5
             including Turbopack builds in beta, stable Node.js middleware,
             TypeScript improvements, and modern linting approaches.
           </p>
