@@ -2,15 +2,16 @@
 
 ## Table of Contents
 
-- [Project Purpose](#project-purpose)
-- [Featured Capabilities](#featured-capabilities)
-- [Quick Start](#quick-start)
-- [Interactive Demos](#interactive-demos)
-- [Key Files](#key-files)
-- [Available Scripts](#available-scripts)
-- [Design Philosophy](#design-philosophy)
-- [Tracking Canary Releases](#tracking-canary-releases)
-- [Contributing](#contributing)
+- [Project Purpose](#-project-purpose)
+- [Design Philosophy](#-design-philosophy)
+- [Tracking Canary Releases](#-tracking-canary-releases)
+- [Featured Capabilities](#-featured-capabilities)
+- [Quick Start](#-quick-start)
+- [Interactive Demos](#-interactive-demos)
+- [Key Files](#-key-files)
+- [Available Scripts](#-available-scripts)
+- [Getting Started](#getting-started)
+- [Learn More](#learn-more)
 
 A minimal demonstration project showcasing the latest features from Next.js canary releases. Each feature is implemented with the smallest amount of code necessary to demonstrate its capabilities.
 
