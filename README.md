@@ -2,24 +2,24 @@
 
 ## Table of Contents
 
-- [Project Purpose](#-project-purpose)
-- [Design Philosophy](#-design-philosophy)
-- [Tracking Canary Releases](#-tracking-canary-releases)
-- [Featured Capabilities](#-featured-capabilities)
-- [Quick Start](#-quick-start)
-- [Interactive Demos](#-interactive-demos)
-- [Key Files](#-key-files)
-- [Available Scripts](#-available-scripts)
+- [Project Purpose](#project-purpose)
+- [Design Philosophy](#design-philosophy)
+- [Tracking Canary Releases](#tracking-canary-releases)
+- [Featured Capabilities](#featured-capabilities)
+- [Quick Start](#quick-start)
+- [Interactive Demos](#interactive-demos)
+- [Key Files](#key-files)
+- [Available Scripts](#available-scripts)
 - [Getting Started](#getting-started)
 - [Learn More](#learn-more)
 
 A minimal demonstration project showcasing the latest features from Next.js canary releases. Each feature is implemented with the smallest amount of code necessary to demonstrate its capabilities.
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project tracks and demonstrates cutting-edge Next.js features as they're released in canary versions. The goal is to provide working examples with minimal code that clearly showcase each new capability.
 
-## 🎯 Design Philosophy
+## Design Philosophy
 
 Each feature demonstration follows these principles:
 
@@ -28,7 +28,7 @@ Each feature demonstration follows these principles:
 3. **Working Example** - Fully functional, not just snippets
 4. **Real Benefits** - Shows actual development improvements
 
-## 🔮 Tracking Canary Releases
+## Tracking Canary Releases
 
 This project stays current with Next.js canary releases:
 
@@ -40,9 +40,9 @@ This project stays current with Next.js canary releases:
 
 **Current Focus: Next.js 15.5**
 
-## ✨ Featured Capabilities
+## Featured Capabilities
 
-### 🚀 [Turbopack Builds (Beta)](src/app/turbopack/page.tsx)
+### [Turbopack Builds (Beta)](src/app/turbopack/page.tsx)
 
 **Minimal showcase:** Performance metrics and build command examples
 
@@ -50,7 +50,7 @@ This project stays current with Next.js canary releases:
 - Production: `npm run build --turbopack`
 - **Result:** 2-5x faster builds on large projects
 
-### 🔒 [Node.js Middleware (Stable)](src/middleware.ts)
+### [Node.js Middleware (Stable)](src/middleware.ts)
 
 **Minimal showcase:** Authentication logic with crypto API access
 
@@ -58,7 +58,7 @@ This project stays current with Next.js canary releases:
 - Custom headers and security features
 - **Demo:** Visit `/dashboard` → redirects to `/login`
 
-### 📝 [TypeScript Improvements](src/app/typescript/page.tsx)
+### [TypeScript Improvements](src/app/typescript/page.tsx)
 
 **Minimal showcase:** Auto-generated route types and props
 
@@ -66,7 +66,7 @@ This project stays current with Next.js canary releases:
 - Global `PageProps`, `LayoutProps` types
 - **Command:** `npm run typegen`
 
-### 🔧 [Modern Linting](eslint.config.mjs)
+### [Modern Linting](eslint.config.mjs)
 
 **Minimal showcase:** Direct ESLint integration
 
@@ -74,21 +74,21 @@ This project stays current with Next.js canary releases:
 - Transparent configuration with `eslint.config.mjs`
 - **Commands:** `npm run lint`, `npm run lint:fix`
 
-### 🌐 [API Integration](src/app/api/)
+### [API Integration](src/app/api/)
 
 **Minimal showcase:** Type-safe routes with middleware headers
 
 - [`/api/time`](src/app/api/time/route.ts) - Basic endpoint
 - [`/api/protected/data`](src/app/api/protected/data/route.ts) - Protected endpoint
 
-### 📚 [Migration Guide](src/app/migration/page.tsx)
+### [Migration Guide](src/app/migration/page.tsx)
 
 **Minimal showcase:** Next.js 16 preparation examples
 
 - Deprecation warnings and solutions
 - Breaking changes timeline
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone and install
@@ -103,7 +103,7 @@ npm run dev
 open http://localhost:3000
 ```
 
-## 🎮 Interactive Demos
+## Interactive Demos
 
 | Feature        | URL           | What It Shows                      |
 | -------------- | ------------- | ---------------------------------- |
@@ -115,7 +115,7 @@ open http://localhost:3000
 | **APIs**       | `/api-demo`   | Type-safe API testing interface    |
 | **Migration**  | `/migration`  | Next.js 16 preparation guide       |
 
-## 📁 Key Files
+## Key Files
 
 - [`src/middleware.ts`](src/middleware.ts) - Node.js middleware showcase
 - [`eslint.config.mjs`](eslint.config.mjs) - Modern linting setup
