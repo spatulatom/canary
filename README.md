@@ -123,7 +123,7 @@ open http://localhost:3000
 - [`package.json`](package.json) - Updated scripts for 15.5
 - [`SHOWCASE.md`](SHOWCASE.md) - Detailed feature documentation
 
-## 🛠 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev          # Development with Turbopack
