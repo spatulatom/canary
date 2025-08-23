@@ -1,3 +1,127 @@
+
+# Next.js Canary Features Showcase
+
+A minimal demonstration project showcasing the latest features from Next.js canary releases. Each feature is implemented with the smallest amount of code necessary to demonstrate its capabilities.
+
+## 🎯 Project Purpose
+
+This project tracks and demonstrates cutting-edge Next.js features as they're released in canary versions. The goal is to provide working examples with minimal code that clearly showcase each new capability.
+
+**Current Focus: Next.js 15.5**
+
+## ✨ Featured Capabilities
+
+### 🚀 [Turbopack Builds (Beta)](src/app/turbopack/page.tsx)
+**Minimal showcase:** Performance metrics and build command examples
+- Development: `npm run dev --turbopack` 
+- Production: `npm run build --turbopack`
+- **Result:** 2-5x faster builds on large projects
+
+### 🔒 [Node.js Middleware (Stable)](src/middleware.ts)
+**Minimal showcase:** Authentication logic with crypto API access
+- Protected routes with automatic redirection
+- Custom headers and security features  
+- **Demo:** Visit `/dashboard` → redirects to `/login`
+
+### 📝 [TypeScript Improvements](src/app/typescript/page.tsx)
+**Minimal showcase:** Auto-generated route types and props
+- Typed routes with compile-time validation
+- Global `PageProps`, `LayoutProps` types
+- **Command:** `npm run typegen`
+
+### 🔧 [Modern Linting](eslint.config.mjs)
+**Minimal showcase:** Direct ESLint integration
+- Replaces `next lint` with standard ESLint CLI
+- Transparent configuration with `eslint.config.mjs`
+- **Commands:** `npm run lint`, `npm run lint:fix`
+
+### 🌐 [API Integration](src/app/api/)
+**Minimal showcase:** Type-safe routes with middleware headers
+- [`/api/time`](src/app/api/time/route.ts) - Basic endpoint
+- [`/api/protected/data`](src/app/api/protected/data/route.ts) - Protected endpoint
+
+### 📚 [Migration Guide](src/app/migration/page.tsx)
+**Minimal showcase:** Next.js 16 preparation examples
+- Deprecation warnings and solutions
+- Breaking changes timeline
+
+## 🚀 Quick Start
+
+```bash
+# Clone and install
+git clone <your-repo>
+cd canary
+npm install
+
+# Experience Turbopack speed
+npm run dev
+
+# Try the features
+open http://localhost:3000
+```
+
+## 🎮 Interactive Demos
+
+| Feature | URL | What It Shows |
+|---------|-----|---------------|
+| **Home** | `/` | Feature overview and navigation |
+| **Turbopack** | `/turbopack` | Build performance metrics |
+| **Middleware** | `/dashboard` | Node.js authentication (redirects) |
+| **TypeScript** | `/typescript` | Auto-generated types examples |
+| **Linting** | `/linting` | ESLint configuration details |
+| **APIs** | `/api-demo` | Type-safe API testing interface |
+| **Migration** | `/migration` | Next.js 16 preparation guide |
+
+## 📁 Key Files
+
+- [`src/middleware.ts`](src/middleware.ts) - Node.js middleware showcase
+- [`eslint.config.mjs`](eslint.config.mjs) - Modern linting setup  
+- [`next.config.ts`](next.config.ts) - Feature configurations
+- [`package.json`](package.json) - Updated scripts for 15.5
+- [`SHOWCASE.md`](SHOWCASE.md) - Detailed feature documentation
+
+## 🛠 Available Scripts
+
+```bash
+npm run dev          # Development with Turbopack
+npm run build        # Production build with Turbopack  
+npm run typegen      # Generate route types
+npm run type-check   # TypeScript validation
+npm run lint         # ESLint (modern approach)
+npm run lint:fix     # Auto-fix linting issues
+```
+
+## 🎯 Design Philosophy
+
+Each feature demonstration follows these principles:
+
+1. **Minimal Code** - Smallest possible implementation
+2. **Clear Purpose** - Obvious what the feature does
+3. **Working Example** - Fully functional, not just snippets
+4. **Real Benefits** - Shows actual development improvements
+
+## 🔮 Tracking Canary Releases
+
+This project stays current with Next.js canary releases:
+
+- **Current:** v15.5.0 (Turbopack builds, Node.js middleware, TypeScript improvements)
+- **Next:** Monitoring for v15.6+ and v16.0 preparations
+- **Updates:** Features added as canary releases become available
+
+## 🤝 Contributing
+
+Found a new canary feature worth showcasing? 
+
+1. Implement with minimal code
+2. Add a dedicated page/component
+3. Update the main navigation
+4. Document in [`SHOWCASE.md`](SHOWCASE.md)
+
+---
+
+**Built with Next.js 15.5.0** | Showcasing the future of React development ⚡
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -28,9 +152,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

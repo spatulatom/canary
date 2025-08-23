@@ -15,6 +15,7 @@ export default function Home() {
             TypeScript improvements, and modern linting approaches.
           </p>
         </header>
+      
 
         {/* Feature Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
